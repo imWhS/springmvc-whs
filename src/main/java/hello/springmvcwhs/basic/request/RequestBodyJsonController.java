@@ -70,5 +70,4 @@ public class RequestBodyJsonController {
 
         return data;
     }
-
 }
