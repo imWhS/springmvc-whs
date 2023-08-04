@@ -49,7 +49,7 @@ public class MappingController {
         return "ok";
     }
 
-    //URL, HTTP 메서드 뿐 아니라 쿼리 파라미터(변수)까지 매핑 조건에 추가
+    //URL, HTTP 메서드 뿐 아니라 요청 파라미터까지 매핑 조건에 추가
     @GetMapping(value = "/mapping-param", params = "mode=debug")
     public String mappingParam() {
         log.info("mappingParam");
